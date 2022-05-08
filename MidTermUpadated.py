@@ -45,10 +45,10 @@ class OffbPosCtl:
         [55, -20, 20.00, orientation1[0], orientation1[1], orientation1[2], orientation1[3]],
 
         [60, -12, 21, orientation2[0], orientation2[1], orientation2[2], orientation2[3]],
-        [40, 4, 15, orientation1[0], orientation1[1], orientation1[2], orientation1[3]],
+        [40, 4, 13, orientation1[0], orientation1[1], orientation1[2], orientation1[3]],
 
-        [13, -66, 5, orientation3[0], orientation3[1], orientation3[2], orientation3[3]],
-        [13, -66, 0, orientation4[0], orientation4[1], orientation4[2], orientation4[3]]
+        [13, -65, 0, orientation3[0], orientation3[1], orientation3[2], orientation3[3]],
+        [13, -65, -4, orientation4[0], orientation4[1], orientation4[2], orientation4[3]]
     ])
 
     def mavrosTopicStringRoot(self, uavID=0):
